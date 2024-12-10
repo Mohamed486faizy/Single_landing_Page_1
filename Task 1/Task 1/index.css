@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+.headerPage_1{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+}
+.header_menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_name{
+  padding-right: 15px;
+}
+.headerButton{
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 25px;
+ 
+}
+.PageMain_1{
+    margin-top: 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+
+       "paraSec Main_img"  
+    ;
+    position: relative;
+    left: 10%;
+    
+    
+}
+.paraSec{
+    grid-area: paraSec;
+    text-align: center;
+    margin:20px;
+}
+.paraSec h1,.TopSec h1{
+    font-size: 3rem;
+    margin: 20px;
+    
+}
+.paraSec p,.TopSec p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.Main_img{
+    position: relative;
+    grid-area: Main_img ;
+    border:1px solid black;
+transform: translate(-40%,-13%);
+
+}
+
+.box1{
+    border:1px solid blue;
+    padding:20px;
+}
+.Tot_box{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Cities{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+

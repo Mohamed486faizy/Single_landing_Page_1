@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+.headerPage_1{
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+}
+.header_menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_name{
+  padding-right: 15px;
+}
+.headerButton{
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 25px;
+    background-color: #FD8D3A;
+    color:antiquewhite;
+    border: initial;
+ 
+}
+.PageMain_1{
+    margin-top: 80px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+
+       "paraSec Main_img"  
+    ;
+    position: relative;
+    left: 10%;
+    
+    
+}
+.paraSec{
+    grid-area: paraSec;
+    text-align: center;
+    margin:20px;
+}
+.paraSec h1,.TopSec h1{
+    font-size: 3rem;
+    margin: 20px;
+    
+}
+.paraSec p,.TopSec p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.Main_img{
+    position: relative;
+    grid-area: Main_img ;
+  
+transform: translate(-40%,-13%);
+
+}
+
+.box1{
+   
+    padding:20px;
+    background-color: #FFFFFF;
+}
+.Tot_box{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Cities{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.plan{
+    position: relative;
+}
+.Plan_Cities{
+
+    width:30%;
+
+}
+.Plan_Cities:nth-of-type(2){
+    position: relative;
+    transform: translateY(-10%);
+}
+.Plan_Cities:nth-of-type(1){
+    position: relative;
+    transform: translateX(16%);
+}
+.TOT_cities{
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    
+}
+.review{
+    opacity: 0.1;
+}
+.ReviwePag h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    
+}
+.ReviwePag p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;   
+}
+.page4{
+    display: grid;
+    grid-template-areas:
+    "contentt review arrow";
+    justify-content: space-evenly;
+    margin-top: 60px;
+    grid-auto-flow: column;
+}
+.ReviwePag{
+    grid-area: contentt;
+}
+.reviewUser{
+    grid-area: review;
+}
+.flight{
+    grid-area: arrow;
+    transform: translateY(-100px);
+ 
+ 
+}
+.inputwra input{
+    padding-right:250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 30px; */
+    border-radius: 10px;
+    border: initial;
+  
+ 
+    
+
+}
+.inputwra{
+    position: relative;
+    /* margin-bottom: 100px; */
+    transform: translateX(-80px);
+}
+
+.InpButton{
+    padding: 7px;
+    top: 9px;
+    position: absolute ;
+    transform: translateX(-100px);
+    border-radius: 5px;
+    background-color:#FD8D3A ;
+    border:initial;
+
+    
+
+}
+.last{
+    
+    gap:100px;
+    justify-content: space-around;
+}
+.last p{
+    font-size: 1.2rem;
+}
+.strong{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.text{
+    color: #FD8D3A;
+}
+.paratext{
+    color:#666666;
+
+}
